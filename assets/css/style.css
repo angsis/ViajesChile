@@ -1,8 +1,18 @@
 body {
     font-family: 'Roboto', sans-serif !important;
-    background-color: black !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
 }
 
 nav img {
     width: 25%;
+}
+
+article {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fondo-fontawesome {
+    background-color: #0DCAF0;
 }
