@@ -28,3 +28,11 @@ section .card-body {
 textarea {
     height: 130px;
 }
+
+footer {
+    background-color: #0DCAF0;
+}
+
+footer spam {
+    font-size: 20pt;
+}
