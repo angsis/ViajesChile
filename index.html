@@ -7,7 +7,6 @@
     <meta name="author" content="Angel Briceño">
     <meta name="description" content="Prueba Viajes Chile">
     <meta name="keywords" content="Examen, tecnología, Viajes, Chile">
-
     <!-- font Roboto google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +22,7 @@
 </head>
 <body>
     <header>
-        <!-- Sección nav-->
+        <!-- NavBar -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark fw-bold fs-5">
             <div class="container">
                 <a class="d-flex navbar-brand col-6 col-sm-2" href="#">
@@ -51,11 +50,34 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Carousel -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="Carousel Uno">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="Carousel Dos">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="Carousel Tres">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </header>
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <!-- Bootstrap Js -->
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- Mis script -->
     <script src="./assets/js/script.js"></script>
