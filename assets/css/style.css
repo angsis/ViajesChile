@@ -16,3 +16,15 @@ article {
 .fondo-fontawesome {
     background-color: #0DCAF0;
 }
+
+section .card-body {
+    background-color: #0DCAF0;
+}
+
+.img-alto {
+    height: 180px;
+}
+
+textarea {
+    height: 130px;
+}
