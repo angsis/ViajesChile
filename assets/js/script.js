@@ -1,5 +1,7 @@
 
 // Evento para generar smooth scroll 
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
 $("a").on("click", function (event) {
     if (this.hash !== "") {
