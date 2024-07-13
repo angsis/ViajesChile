@@ -21,10 +21,12 @@ section .card-body {
     background-color: #0DCAF0;
 }
 
+/* Para que las imagenes de los card sean del mismo alto */
 .img-alto {
     height: 180px;
 }
 
+/* para que el campo del mensaje del formulario sea un poco más alto */
 textarea {
     height: 130px;
 }

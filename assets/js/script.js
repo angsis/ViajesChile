@@ -1,3 +1,6 @@
+
+// Evento para generar smooth scroll 
+
 $("a").on("click", function (event) {
     if (this.hash !== "") {
       event.preventDefault();
